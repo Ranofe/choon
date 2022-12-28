@@ -1,2 +1,1 @@
-def print_text(text):
-    print(text)
+k = 1.380649e-23  # Boltzmann constant
