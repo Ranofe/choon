@@ -1,0 +1,10 @@
+__pycache__
+.coverage
+.DS_Store
+.ch_env
+*.egg-info
+dist
+htmlcov
+ch_env
+.ipynb_checkpoints*
+*.ipynb
