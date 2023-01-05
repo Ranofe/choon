@@ -6,7 +6,7 @@ from choon.tools import k
 test_TX = {
         'HPA_dBm' : 30,
         'antenna_dB' : 23,
-        'losses' : 0.4,
+        'losses_dB' : 0.4,
         'bandwidth_MHz': 50,
         'frequency_MHz': 8000,
 }
@@ -14,9 +14,9 @@ test_TX = {
 test_RX = {
         'antenna_dB': 46.8,
         'noise_temp_k': 290,
-        'losses' : 2,
+        'losses_dB' : 2,
         'noise_figure_dB': 1,
-        'LNA_gain':30,
+        'LNA_gain_dB':30,
 }
 
 distances_km = np.arange(500,2000,100)
